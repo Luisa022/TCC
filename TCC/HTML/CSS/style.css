@@ -1,0 +1,44 @@
+
+header {
+    background-color: orange;
+    color: white;
+    overflow: auto;
+}
+
+/*menu*/
+.menu {
+    list-style: none;
+    float: inline-start;
+}
+
+.menu li a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding:5px 10px; 
+    display:block;
+}
+
+/*categorias*/
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+footer {
+    background-color: orange;
+    color: white;
+}
