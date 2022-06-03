@@ -1,0 +1,43 @@
+.icon{
+    text-align: center;
+  }
+
+.text{
+    text-align: center;
+    font-style:inherit;
+    color: #A028D8 ;
+}
+
+.text1{
+    text-align: center;
+    font-style:inherit;
+    color: #F7B82B;
+}
+
+input[type=text] {
+    color: #ffff;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #F7B82B;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #A028D8;
+  }
+
+  input::placeholder {
+    color: #ffff;
+  }
+
+.avancar{
+    padding: 10px ;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    background-color: #F7B82B;
+    color: #ffff;
+    justify-content: center;
+    text-align: center;
+}
+
