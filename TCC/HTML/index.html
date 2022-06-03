@@ -15,9 +15,9 @@
         <header>
             <!--menu-->
             <nav class="menu">
-              <li> <a href=""> <img src="IMG/Logo.png"> </a></li>
-              <li style="padding: 30px;"> <a href=""> <h3>Food & Grill</h3> </a> </li>
-              <li> <a href=""> <img src="IMG/iconBandeja.png"> </a> </li>
+              <div class="menu-logo"> <li> <a href=""> <img src="IMG/Logo.png" width="70px"> </a></li> </div>
+              <li class="menu-title"> <a href=""> <h3>Food & Grill</h3> </a> </li>
+              <li class="menu-item"> <a href=""> <img src="IMG/iconBandeja.png" width="60px"> </a> </li>
             </nav>
           </div>
         </header>
@@ -26,42 +26,37 @@
         <article>
             
             <!--carrossel de imagens-->
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" width:250px>
+            <div class="carousel">
+              <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselIndicators" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="IMG/230411.jpg" alt="">
+                    <img class="d-block w-100" src="IMG/banner1.png" alt="">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="IMG/230411.jpg" alt="">
+                    <img class="d-block w-100" src="IMG/banner1.png" alt="">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="IMG/230411.jpg" alt="">
+                    <img class="d-block w-100" src="IMG/banner1.png" alt="">
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Anterior</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Próximo</span>
-                </a>
               </div>
+            </div>
+            
 
               <!--Botões categorias-->
               <div class="container">
                 <div class="row">
-                    <a href="" class="btn"><i>  <img src="IMG/btnModel.png" class="rowImg">  <h5>Lanches</h5> </i></a>
-                    <a href="" class="btn"><i> <img src="IMG/btnModel.png" class="rowImg"> <h5> Bebidas </h5></i></a>    
+                  <a href="" class="btn"><div class="row-item"><i>  <img src="" class="rowImg"></div>  <h5>Lanches</h5> </i></a>
+                  <a href="" class="btn"><div class="row-item"><i> <img src="" class="rowImg"></div> <h5> Bebidas </h5></i></a>  
                 </div>
                 <div class="row">
-                    <a href="" class="btn"><i> <img src="IMG/btnModel.png" class="rowImg"> <h5> Petiscos </h5> </i></a>
-                    <a href="" class="btn"><i> <img src="IMG/btnModel.png" class="rowImg"> <h5> Sobremesas</h5> </i></a>    
+                  <a href="" class="btn"><div class="row-item"><i> <img src="" class="rowImg"></div> <h5> Petiscos </h5> </i></a>
+                  <a href="" class="btn"><div class="row-item"><i> <img src="" class="rowImg"></div> <h5> Sobremesas</h5> </i></a>
                 </div>
               </div>
                             
@@ -69,9 +64,9 @@
 
         <!--rodapé-->
         <footer>
-            <nav class="menu">
-              <li> <a href=""> <h4>Food & Grill</h4> </a> </li>
-              <li> <a href=""> <img src="IMG/instaIcon.png"> </a> </li>
+            <nav class="menu-footer">
+              <li> <a href=""> <h3>Food & Grill</h3> </a> </li>
+              <li> <a href=""> <img src=""> </a> </li>
             </nav>
         </footer>
 
