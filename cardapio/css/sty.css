@@ -1,0 +1,77 @@
+
+/*cabeçalho*/
+header {
+    display: flex;
+    overflow: auto;
+    height: 100px;
+    background-color: #F4B72D;
+    color: white;
+
+}
+
+.menu {
+    list-style: none;
+    float:inline-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    padding:5px 10px; 
+}
+
+.menu-logo {
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.menu-title {
+    align-items:baseline;
+}
+
+.menu-item {
+    top: 8px;
+    right: 10px;
+    padding: 15px;
+    position: absolute;
+}
+
+/*cardapio*/
+.container {
+    height: 70px;
+    margin: 70px;
+    display: flex;
+    flex-direction:row;
+    /*justify-content: space-around;*/
+    background-color: rgba(255, 208, 0, 0.329);    
+}
+
+.item {
+    top: 10px;
+}
+
+.item1 {
+    padding: 5px;
+}
+
+/*botao contar*/
+button {
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+    background-color: #F4B72D;
+    color: white;
+    right: 100%;
+}
+
+h2 {
+    color: white;
+    /*margin: 0 50px;
+    font-size: 45px;*/
+    background-color: #F4B72D;
+
+}
