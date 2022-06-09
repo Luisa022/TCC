@@ -1,0 +1,170 @@
+body {
+    align-items: center;
+    font-family: verdana;
+}
+/*cabeçalho*/
+header {
+    display: flex;
+    overflow: auto;
+    height: 100px;
+    background-color: #F4B72D;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.menu {
+    list-style: none;
+    float:inline-start; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    padding:5px 10px; 
+}
+
+.menu-logo {
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.menu-title {
+    align-items:baseline;
+}
+
+.menu-item {
+    top: 8px;
+    right: 10px;
+    padding: 15px;
+    position: absolute;
+}
+
+/*grid menu*/
+.wrapper {
+    display: grid;
+    grid-template-rows: 70px;
+    padding-top: 25px;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.wrapperContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 208, 0, 0.329);
+    border-radius: 8px;
+    width: 85%;
+    height: 80px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.textosContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    font-size: larger;
+    line-height: 2px;
+    padding-left: 20%;
+    line-height: 2px;
+    padding-bottom: 25px;
+}
+
+
+
+/*contador*/
+.contador {
+    display: flex;
+    flex-direction: row;
+    background-color: #F4B72D;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    
+}
+
+button {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    align-items: center;
+    justify-items: center;
+    background-color: #F4B72D;
+    color: white;
+    right: 100%;
+    border: 0;
+    border-radius: 8px;
+}
+
+#counting {
+    color: white;
+    font-weight: 300;
+}
+
+/*botões inferiores*/
+.btn-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-top: 80%;
+}
+
+.row-item {
+    background-color: #A028D8;
+    border-radius: 50%;
+    width: 55px;
+    height: 50px;
+}
+
+.btn-end {
+    background-color: #A028D8;
+    width: auto;
+    height: 35px;
+    border-bottom: 2px black solid ;
+    box-shadow: 0 0 10px grey ;
+}
+
+/*rodapé*/
+/*rodapé*/
+footer {
+    background-color: #F4B72D;
+    color: white;
+    list-style: none;
+    overflow: auto;
+    border-top: 1px solid ;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+/*links rodapé*/
+.menu-footer {
+    list-style: none;
+    float:inline-start;
+    border-radius: 5px;
+}
+
+.menu-footer li a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding:5px 10px; 
+    display:block;
+}
+
+
+

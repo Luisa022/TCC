@@ -1,0 +1,123 @@
+body {
+    font-family: verdana;
+}
+
+header {
+    background-color: orange;
+    color: white;
+    overflow: auto;
+}
+
+/*menu*/
+.menu {
+    list-style: none;
+    float:inline-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    padding:5px 10px; 
+}
+
+.menu-logo {
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menu-title {
+    align-items: flex-end;
+}
+
+.menu-item {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/*carrosel*/
+.carousel {
+    padding-top: 20px;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.carousel-inner {
+    border-radius: 8%;
+    
+}
+
+#carousel-indicators li{
+    width: 12px;
+    height: 12px;
+    background-color: #A028D8;
+}
+
+.carousel-indicators li{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #A028D8;
+}
+
+
+/*categorias*/
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 10%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.row-item {
+    background-color: #A028D8;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-bottom: 2px black solid ;
+}
+
+/*rodapé*/
+footer {
+    background-color: orange;
+    color: white;
+    list-style: none;
+    overflow: auto;
+    border-top: 1px solid ;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+/*links rodapé*/
+.menu-footer {
+    list-style: none;
+    float:inline-start;
+}
+
+.menu-footer li a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding:5px 10px; 
+    display:block;
+}
+
