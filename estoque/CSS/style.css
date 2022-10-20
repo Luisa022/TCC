@@ -1,0 +1,252 @@
+body {
+    font-family: verdana;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*cabeçalho*/
+header {
+    display: flex;
+    height: 60px;
+    background-color: #F4B72D;
+    color: white;
+    overflow: hidden;
+    width: 100%;
+}
+
+.menu {
+    list-style: none;
+    float:inline-start; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 5px 10px;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.menu-title {
+    padding-left: 20px;
+    font-size: large;
+}
+
+.site-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/*controle de estoque*/
+
+/*container lista*/
+.mainContainer1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F1F1;
+    border-radius: 30px;
+    margin: 1.6%;
+    overflow: scroll;
+    width: 180vh;
+    height: 70vh;
+    overflow-x: hidden;
+    justify-content:space-around;
+}
+
+/*container add estoque*/
+.mainContainer2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #F1F1F1;
+    border-radius: 30px;
+    width: 180vh;
+    height: 40vh;
+    margin: 1.6%;
+}
+
+.upperRow {
+    border-bottom: 2.5px solid;
+    border-color: #979797;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+    line-height: 1px;
+    height: 45px;
+    margin-left: 4px;
+}
+
+.upperRow h4 {
+    display: flex;
+    justify-content: baseline;
+    padding-left: 2%;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    width: 35%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+button {
+    color: orange;
+    width: 100px;
+}
+/*--coluna--*/
+
+.col1 {
+    display: flex;
+flex-direction: column;
+flex-wrap:nowrap;
+}
+
+
+
+
+
+/*inputs add estoque*/
+.item {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 10px 5px 5px grey ;
+    width: 97%;
+    height: 50px;
+    align-items: center;
+    justify-content:space-around;
+    margin: 1%;
+    margin-top: 2%;
+}
+
+.item h6 {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.mainInput {
+    border: 0;
+    margin: 5px 10px;
+}
+
+::placeholder {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+/*configurando scroll*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 30px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 30px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #C4C4C4;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row1Input {
+    color: black;
+    width: 60%;
+    height: 30px;
+    padding: 10px;
+    margin: 15px ;
+    background-color: white;
+    border-radius: 22px;
+    border: 0px;
+    font-size: large;
+    box-shadow: 10px 5px 5px grey;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+}
+
+label img {
+    width: 20%;
+    padding: 10px 10px;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.desc {
+    color: black;
+    width: 80%;
+    height: 30px;
+    padding: 10px;
+    margin: 15px ;
+    background-color: white;
+    border-radius: 22px;
+    border: 0px;
+    font-size: 20px;
+    box-shadow: 10px 5px 5px grey;
+    font-weight: bold;
+}
+
+.opcoes {
+    color: black;
+    width: 10%;
+    height: 30px;
+    padding: 10px;
+    margin: 8px ;
+    background-color: white;
+    border-radius: 22px;
+    border: 0px;
+    font-size: 20px;
+    box-shadow: 10px 5px 5px grey;
+    font-weight: bold;
+}
+
+.btn {
+    padding-top: 1px;
+    background-color: #72FF03;
+    border-radius: 18px;
+    border: 0;
+    color: white;
+    width: 95%;
+    height: 40px;
+    font-size: large;
+    font-weight: bold;
+    margin: 2%;
+}

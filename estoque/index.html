@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-widht, initial-scale=1.0">
+
+        <!--CSS EXTERNO-->
+        <link rel="stylesheet" href="CSS/style.css">
+
+        <link rel="icon" type="image/png" href="IMG/Logo.png"/>
+        <title>Food & Grill</title>
+    </head>
+    
+    <body class="site">
+        
+        <!--cabeçalho-->
+    <header > 
+        <!--menu-->
+        <nav class="menu"> 
+          <li class="menu-logo"> <a href="../TCC/HTML/index.html"> <img src="IMG/Logo.png" width="50px"> </a></li> 
+          <li class="menu-title"> <a href=""> <h3>Food & Grill</h3> </a> </li>
+        </nav>
+      </div>
+    </header>
+
+    <!-- conteúdo do site-->
+    <article class="site-content">
+
+        <!--tabela de controle de estoque-->
+        <div class="mainContainer1">
+            
+
+            <div class="upperRow">
+                <img src="IMG/bendejaContainer.png" width="3.5%">
+                <h4> ESTOQUE </h4> 
+            </div>
+                    <div class="mainContainer2">
+                                            <div class="container"> <!--container-->
+                        <div class="col1"> <!--coluna-->
+                            <img class = "col1" src= "IMG/vegangrill.jpg" width="20%">
+                            <button> EDITAR </button>
+                        </div>
+                        <div class="col1"> <!--coluna-->
+                            <H5>vegan-grill</H5>
+                            <H5>12</H5>
+                            <H5>R$15,00</H5>
+                            <div>
+                                <h6>Disponivel</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container"> <!--container-->
+                        <div class="col1"> <!--coluna-->
+                            <img class = "col1" src= "" width="5.0%">
+                            <button> EDITAR </button>
+                        </div>
+                        <div class="col1"> <!--coluna-->
+                            <H5>vegan-grill</H5>
+                            <H5>12</H5>
+                            <H5>R$15,00</H5>
+                            <div>
+                                <h6>Disponivel</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                    
+            </div>
+
+            <!--container add produtos ao estoque-->
+        <div class="mainContainer">
+            <div class="container1">
+
+                <div class="upperRow">
+                    <img src="IMG/bendejaContainer.png" width="3.5%">
+                    <h4> ADICIONAR PRODUTOS </h4> 
+                </div>
+                
+                <div class="row1">
+                    <input type="text" id="nomeProduto" class="row1Input" placeholder="NOME:">
+                    <input type="number" id="quantProduto" class="row1Input" placeholder="QUANTIDADE:">
+
+                    <label for="imgProduto">IMAGEM: <img src="IMG/upload-icon-22.png"> </label>
+                    <input type="file" name= "imgProduto" id="imgProduto" accept="image/*" class="row1Input">
+                </div>
+
+                <div class="row2">
+                    <input type="text" id="descricaoProduto" class="desc" placeholder="DESCRIÇÃO:">
+
+                    <label for="produtos">TIPO:</label>
+                    <input list="opcoes" id="produtos" name="Produtos" class="opcoes"/>
+                    <datalist id="opcoes">
+                        <option value="Hamburguer">
+                        <option value="Bebida">
+                        <option value="Petisco">
+                        <option value="Sobremesa">
+                    </datalist>
+
+                </div>
+                <input type="button" class="btn" value="ADICIONAR" onclick="salvar()">
+            </div>
+
+        </div>
+
+    </article>
+
+        <!--JS EXTERNO-->
+        <script type="text/javascript" src="JS/java.js"></script>
+
+    </body>
+</html>
